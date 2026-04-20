@@ -48,50 +48,6 @@ The dataset can be accessed via the following link:
 
 > Note: This GitHub repository serves as the public homepage and documentation page of the dataset, while the full dataset is distributed via the external link above.
 
-## Recommended Directory Structure
-
-A recommended organization of the dataset is as follows:
-
-```text
-PairUAV-150/
-├── images/
-│   ├── positive/
-│   └── negative/
-├── masks/
-├── annotations_xml/
-├── splits/
-│   ├── train.txt
-│   ├── val.txt
-│   └── test.txt
-├── assets/
-│   └── examples/
-│       ├── example_pair_01.png
-│       ├── example_pair_02.png
-│       └── example_pair_03.png
-└── README.md
-```
-
-Where:
-
-- `images/positive/` contains target-present infrared images
-- `images/negative/` contains target-absent infrared images
-- `masks/` contains binary mask annotations
-- `annotations_xml/` contains XML bounding-box annotations
-- `splits/` optionally provides train/val/test splits
-- `assets/examples/` stores representative visual examples
-
-## Annotation Format
-
-### 1. Mask Annotation
-
-The mask is a binary image with:
-
-- **target region = 255**
-- **background = 0**
-
-### 2. XML Annotation
-
-Each target-present image is accompanied by an XML file that provides the rectangular bounding-box annotation of the UAV target.
 
 ## Potential Research Uses
 
