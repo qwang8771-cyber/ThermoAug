@@ -110,7 +110,7 @@ If you use this dataset in your research, please cite the related paper or the d
 }
 ```
 
-## Citation of the paper
+## Citation of the paper and dataset
 
 ```bibtex
 @article{yourpaper2026,
