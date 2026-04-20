@@ -1,26 +1,33 @@
 # PairUAV-150
 
-Official homepage for the dataset used in our paper.
+**PairUAV-150: A Paired Infrared UAV Small Target Dataset**
+
+This repository serves as the public homepage of **PairUAV-150**.
+
+---
+
+
+# English Version
 
 ## Overview
 
-PairUAV-150 is a paired infrared dataset for UAV small target analysis.
+**PairUAV-150** is a paired infrared dataset for UAV small target analysis.
 
 The dataset consists of **150 paired sample groups**, and each group contains:
 
-- one target-present infrared image containing a UAV small target
-- one corresponding target-absent infrared image
-- one mask annotation
-- one XML bounding-box annotation
+- one **target-present infrared image** containing a UAV small target
+- one corresponding **target-absent infrared image**
+- one **mask annotation**
+- one **XML bounding-box annotation**
 
-The dataset was acquired using a long-wave cooled infrared imaging system and is intended for research on infrared UAV small targets.
+The dataset was acquired using a **long-wave cooled infrared imaging system** and is intended for research on infrared UAV small targets.
 
 ## Highlights
 
-- Paired sample design: each group contains both target-present and target-absent images for controlled comparison
-- Dual annotation formats: both pixel-level mask annotations and XML bounding-box annotations are provided
-- Focused on infrared UAV small targets: suitable for detection, segmentation, and related evaluation tasks
-- Useful for fusion/synthesis evaluation: applicable to target extraction, target insertion, target-background fusion, and realism assessment of synthetic results
+- **Paired sample design**: each group contains both target-present and target-absent images for controlled comparison
+- **Dual annotation formats**: both pixel-level mask annotations and XML bounding-box annotations are provided
+- **Focused on infrared UAV small targets**: suitable for detection, segmentation, and related evaluation tasks
+- **Useful for fusion/synthesis evaluation**: applicable to target extraction, target insertion, target-background fusion, and realism assessment of synthetic results
 
 ## Dataset Information
 
@@ -36,10 +43,42 @@ The dataset was acquired using a long-wave cooled infrared imaging system and is
 
 The dataset can be accessed via the following link:
 
-- **Baidu Netdisk**: [Insert your Baidu Netdisk link here](YOUR_BAIDU_LINK_HERE)
+- **Baidu Netdisk**: [Download Link](YOUR_BAIDU_LINK_HERE)
 - **Extraction code**: `YOUR_CODE_HERE`
 
 > Note: This GitHub repository serves as the public homepage and documentation page of the dataset, while the full dataset is distributed via the external link above.
+
+## Recommended Directory Structure
+
+A recommended organization of the dataset is as follows:
+
+```text
+PairUAV-150/
+├── images/
+│   ├── positive/
+│   └── negative/
+├── masks/
+├── annotations_xml/
+├── splits/
+│   ├── train.txt
+│   ├── val.txt
+│   └── test.txt
+├── assets/
+│   └── examples/
+│       ├── example_pair_01.png
+│       ├── example_pair_02.png
+│       └── example_pair_03.png
+└── README.md
+```
+
+Where:
+
+- `images/positive/` contains target-present infrared images
+- `images/negative/` contains target-absent infrared images
+- `masks/` contains binary mask annotations
+- `annotations_xml/` contains XML bounding-box annotations
+- `splits/` optionally provides train/val/test splits
+- `assets/examples/` stores representative visual examples
 
 ## Annotation Format
 
@@ -53,3 +92,83 @@ The mask is a binary image with:
 ### 2. XML Annotation
 
 Each target-present image is accompanied by an XML file that provides the rectangular bounding-box annotation of the UAV target.
+
+## Potential Research Uses
+
+PairUAV-150 can be used for, but is not limited to:
+
+1. infrared UAV small target detection
+2. infrared small target segmentation
+3. evaluation of target extraction methods
+4. evaluation of target insertion and synthesis methods
+5. evaluation of target-background fusion methods
+6. paired analysis of target presence under controlled conditions
+
+In particular, because the dataset provides paired target-present and target-absent samples, it is suitable for assessing whether a method can preserve background consistency while introducing realistic target responses.
+
+## Visual Examples
+
+Several representative paired samples can be displayed below.
+
+### Example 1
+
+<p align="center">
+  <img src="assets/examples/example_pair_01.png" width="85%">
+</p>
+
+### Example 2
+
+<p align="center">
+  <img src="assets/examples/example_pair_02.png" width="85%">
+</p>
+
+### Example 3
+
+<p align="center">
+  <img src="assets/examples/example_pair_03.png" width="85%">
+</p>
+
+> It is recommended that each example figure includes a target-present image, a target-absent image, the mask annotation, and the bounding-box visualization.
+
+## License
+
+This dataset is released for **academic research only**.
+
+Commercial use, redistribution, or any other use beyond academic research is not allowed without prior permission from the authors.
+
+A formal license file may be added later if needed.
+
+# Citation
+
+If you use this dataset in your research, please cite the related paper or the dataset homepage.
+
+## Citation of the dataset homepage
+
+```bibtex
+@misc{pairuav150,
+  title={PairUAV-150: A Paired Infrared UAV Small Target Dataset},
+  author={Author One and Author Two and Author Three},
+  year={2026},
+  note={Dataset homepage. Link will be updated after publication.},
+  howpublished={GitHub repository}
+}
+```
+
+## Citation of the paper
+
+```bibtex
+@article{yourpaper2026,
+  title={Your Paper Title},
+  author={Author One and Author Two and Author Three},
+  journal={TBD},
+  year={2026},
+  note={To be updated after publication}
+}
+```
+
+## Contact
+
+For questions about the dataset, please contact:
+
+- **Name**: YOUR_NAME
+- **Email**: YOUR_EMAIL
