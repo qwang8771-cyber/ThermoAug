@@ -67,12 +67,11 @@ Several representative paired samples can be displayed below.
 ## Examples
 
 <p align="center">
-  <img src="Examples.pdf" width="85%">
+  <img src="Examples.jpg" width="85%">
 </p>
 
 
 
-> It is recommended that each example figure includes a target-present image, a target-absent image, the mask annotation, and the bounding-box visualization.
 
 # License
 
@@ -86,17 +85,6 @@ A formal license file may be added later if needed.
 
 If you use this dataset in your research, please cite the related paper or the dataset homepage.
 
-## Citation of the dataset homepage
-
-```bibtex
-@misc{pairuav150,
-  title={PairUAV-150: A Paired Infrared UAV Small Target Dataset},
-  author={Author One and Author Two and Author Three},
-  year={2026},
-  note={Dataset homepage. Link will be updated after publication.},
-  howpublished={GitHub repository}
-}
-```
 
 ## Citation of the paper and dataset
 
