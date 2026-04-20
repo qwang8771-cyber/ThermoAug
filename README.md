@@ -64,23 +64,13 @@ In particular, because the dataset provides paired target-present and target-abs
 
 Several representative paired samples can be displayed below.
 
-## Example 1
+## Examples
 
 <p align="center">
-  <img src="assets/examples/example_pair_01.png" width="85%">
+  <img src="Examples.pdf" width="85%">
 </p>
 
-## Example 2
 
-<p align="center">
-  <img src="assets/examples/example_pair_02.png" width="85%">
-</p>
-
-## Example 3
-
-<p align="center">
-  <img src="assets/examples/example_pair_03.png" width="85%">
-</p>
 
 > It is recommended that each example figure includes a target-present image, a target-absent image, the mask annotation, and the bounding-box visualization.
 
