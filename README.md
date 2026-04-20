@@ -102,5 +102,4 @@ If you use this dataset in your research, please cite the related paper or the d
 
 For questions about the dataset, please contact:
 
-- **Name**: YOUR_NAME
-- **Email**: YOUR_EMAIL
+- **Email**: wangqian24@nudt.edu.cn
