@@ -42,7 +42,7 @@ The dataset was acquired using a **long-wave cooled infrared imaging system** an
 The dataset can be accessed via the following link:
 
 - **Baidu Netdisk**: [[Download Link](https://pan.baidu.com/s/17D4QfnaMA61I-m468QCGAw)]
-- **Extraction code**: `x9cr`
+- **Extraction code**: ``
 
 > Note: This GitHub repository serves as the public homepage and documentation page of the dataset, while the full dataset is distributed via the external link above.
 
